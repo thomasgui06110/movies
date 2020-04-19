@@ -7,11 +7,11 @@ export default class Headers extends Component {
     return (
       <header className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">AlloMovie</a>
-        <button className="navbar-toggler">
+        {/* <button className="navbar-toggler">
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse">
-          <ul className="navbar-nav ml-auto">
+        </button> */}
+        <div className=" ">
+          <ul className="navbar-nav ">
             <li className="nav-item">
               <NavLink to="/films" className="nav-link" >Home</NavLink>
             </li>
